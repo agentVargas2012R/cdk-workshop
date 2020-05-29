@@ -19,7 +19,7 @@ The CDK CLI requires you to be in the same directory as your cdk.json file. If y
 
 ### Output 
 
-Resources:
+```Resources:
   CdkWorkshopQueue50D9D426:
     Type: AWS::SQS::Queue
     Properties:
@@ -133,7 +133,7 @@ Conditions:
           - Fn::Equals:
               - Ref: AWS::Region
               - us-west-2
-
+```
 ## Bootstrapping an environment
 The first time you deploy an AWS CDK app into an environment (account/region), you’ll need to install a “bootstrap stack”. This stack includes resources that are needed for the toolkit’s operation. For example, the stack includes an S3 bucket that is used to store templates and assets during the deployment process.
 
