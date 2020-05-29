@@ -197,3 +197,5 @@ Going back to lib/cdk-workshop-stack.ts, define an API endpoint and associate it
     });
 ```
 
+### Test It
+`curl https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/prod/`
